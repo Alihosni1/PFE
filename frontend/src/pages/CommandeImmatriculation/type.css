@@ -1,0 +1,103 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+
+  .client-selection {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .client-options {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .client-card {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 50%;
+    cursor: pointer;
+  }
+  
+  .client-card.selected {
+    border-color: #007bff;
+  }
+  
+  .client-card input {
+    display: none;
+  }
+  
+  .client-card label {
+    cursor: pointer;
+  }
+  
+  .client-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .client-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .documents {
+    margin-top: 20px;
+  }
+  
+  .documents h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .documents ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .documents li {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .info-text {
+    font-size: 14px;
+    color: #007bff;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Next Button */
+  .next-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .next-button:hover {
+    background-color: #0056b3;
+  }

@@ -1,0 +1,7 @@
+.main-container {
+    padding: 80px 20px 0 300px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f7fc; 
+  }

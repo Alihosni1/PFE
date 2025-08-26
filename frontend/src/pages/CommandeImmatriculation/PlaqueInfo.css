@@ -1,0 +1,19 @@
+
+.titre-section {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+
+  .vehicule-item {
+    width: 200px;
+  }
+  
+ 
+  .vehicule-img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-top: 5px;
+  }
+  
